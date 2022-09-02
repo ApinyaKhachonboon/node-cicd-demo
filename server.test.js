@@ -1,6 +1,5 @@
-import app from './server';
-
 const request = require('supertest');
+const app = require('./server');
 
 describe('GET /', () => {
   it('responds with json', () => {
